@@ -5,47 +5,177 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/propiosBAV.css">
         <title>Barra de navegación</title>
       
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/stylesNavBootrap.css" rel="stylesheet" />
         <link href="css/propiosBAV.css" rel="stylesheet" />
     </head>
     <body id="page-top">
 
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div>  
+            <a class="navbar-brand" href="#">
+            <img src="./assets/img/logosobre.svg" width="300" height="80" class="d-inline-block align-top" alt="" loading="lazy">
+          </a></div>
+
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ¿Quiénes somos?
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#Ampa">Ampa</a>
+                <a class="dropdown-item" href="#Anny">Anny</a>
+                <a class="dropdown-item" href="#Bea">Bea</a>
+                <a class="dropdown-item" href="#Bryan">Bryan</a>
+                <a class="dropdown-item" href="#Victor">Victor</a>
+            </div>
+            </li>
+            <li class="nav-item dropdown menu">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Proyectos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Manual</a>
+                <a class="dropdown-item" href="#">Wireframe</a>
+                <a class="dropdown-item" href="#">Sitio Web</a>
+            </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Píldoras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+            
+          </ul>
+        </div>
+      </nav>
+      <section>
+        <h1>Bi Ei Vi, con buena vibra</h1> <br><br><br>
+      </section>
+    </header>
+    <main>
+        <!--¿Quiénes Somos?-->
+        <article class="about">
+            <h2>¿Quiénes Somos?</h2>
+            <p>¡Hola! Somos <b>Bi Ei Vi</b>, un equipo de trabajo de la II Edición del curso de Desarrollo Web Fullstack de Factoría F5 de Fundación Tomillo.
+                Queremos mostraros nuestro trabajo realizado durante las últimas semanas y que podáis contar nuestros recursos
+                en vuestros proyectos, <b>¡somos una gran comunidad!</b>
+                ¿Por qué somos diferentes? Porque somos <b>cercanos</b>, hablamos <b>claro</b>, aprovechamos nuestros conocimientos
+                para sacar el <b>máximo provecho</b> a nuestro trabajo y sobre todo tenemos ¡BUENA VIBRA!
+            </p>
+        <section class="equipo">
+            <div class="card-deck">
+              <div class="card">
+                  <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/man_male_avatar_portrait-256.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Víctor</h5>
+                    <p class="card-text">Soy Victor, un aventurero. Me considero amable, inteligente e introvertido. Aunque me considero un pensador y un manitas, me gusta colaborar en equipo. Mi pasatiempo preferido es curiosear por la red, salir a correr al campo y jugar. Actualmente estoy participando en algo nuevo para mi, un Boot Camp en Desarrollo Web.</p>
+                  </div>
+                  <img src="assets/img/montanas/montana-azul.svg">
+              </div>
+              <div class="card">
+                  <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/afro_woman_female_person-256.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Anny Karolina</h5>
+                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ipsam eligendi, commodi libero maiores eveniet blanditiis atque rerum, tenetur ipsum hic! Ab voluptatum temporibus obcaecati incidunt deserunt eos quaerat commodi.</p>
+                </div>
+                <img src="assets/img/montanas/montana-mar.svg">
+              </div>
+              <div class="card">
+                <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/boy_person_avatar_kid-256.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Brayan</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis quae, atque, eum, obcaecati quas quasi voluptates quaerat velit esse repellendus unde id ipsum! Suscipit assumenda eos quo aliquam distinctio.</p>
+                </div>
+                  <img src="assets/img/montanas/montana-naranja.svg">
+              </div>
+              <div class="card">
+                  <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/boy_male_avatar_portrait-256.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Ampa</h5>
+                    <p class="card-text">Soy una persona entusiasta, creativa y curiosa. Me gusta trabajar en equipo y mantenerme siempre activa. Estoy formándome como desarrolladora web porque creo que es un sector en el que siempre estaré en constante aprendizaje y eso me motiva.</p>
+                  </div>
+                  <img src="assets/img/montanas/montana-azul.svg">
+              </div>
+                <div class="card">
+                  <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/girl_avatar_child_kid-256.png" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Bea</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci tempora natus perspiciatis assumenda, eligendi blanditiis aliquid perferendis voluptate veniam iusto enim architecto excepturi quo repudiandae nisi tempore distinctio, veritatis porro?</p>
+                    <img src="svg/montañaazul.svg" class="card-img-bottom"alt="">
+                  </div>
+                  <img src="assets/img/montanas/montana-mar.svg">
+                </div>
+              </div>
+          </section>
+        </article>
+    </main>
+
+        <!--Contacto-->
+        <section class="page-section" id="contact">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="assets/img/logoBiEiVi_sobrenegro.svg" alt="" /></a>
-                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    Menu
-                    <i class="fas fa-bars ml-1"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#home">Home</a></li>
-                        <li class="nav-item dropdown"><a class="nav-link js-scroll-trigger dropdown-toggle" href="#team" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">¿Quienes somos?</a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="#">Ampa</a>
-                                <a class="dropdown-item" href="#">Anny</a>
-                                <a class="dropdown-item" href="#">Bea</a>
-                                <a class="dropdown-item" href="#">Bryan</a>
-                                <a class="dropdown-item" href="#">Victor</a>
-                              </div></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#proyectos">Proyectos</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#pildoras">Pildoras</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contacto">Contacto</a></li>
-                    </ul>
+                <div class="text-center">
+                    <h2 class="section-heading">Contacta con Nosotros</h2>
+                </div>
+                <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input class="form-control" id="name" type="text" placeholder="Tu nombre *" required="required" data-validation-required-message="Por favor, escriba su nombre.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" id="email" type="email" placeholder="Tu Email *" required="required" data-validation-required-message="Por favor, introduzca su dirección de correo electrónico.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <input class="form-control" id="phone" type="tel" placeholder="Su teléfono *" required="required" data-validation-required-message="Por favor, introduzca su número de teléfono.">
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <textarea class="form-control" id="message" placeholder="Tu mensaje *" required="required" data-validation-required-message="Ingrese un mensaje."></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div id="success"></div>
+                        <button class="btn btn-primary btn-xl text-uppercase" id="sendMessageButton" type="submit">Enviar Mensaje</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!--footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left"><p>Copyright © BiEiVi 2020</p></div>
+                   
+                    <div>
+                        <a href="http://www.instagram.com/bieivi_buenavibra" target="_blank" title="logo">Instagram</a></div>
                 </div>
             </div>
-        </nav>
-        <img src="./assets/img/header-bg.jpg">
+        </footer>
+
         <!-- Incluye Bootstrap ~# jQuery-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
-        <script src="js/scriptsNav.js"></script>
+       
   </body>
 </html>

@@ -6,18 +6,20 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-        <link rel="stylesheet" href="./css/propiosBAV.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
         <title>Barra de navegación</title>
       
         <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Quicksand:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/propiosBAV.css" rel="stylesheet" />
     </head>
-    <body id="page-top">
+   
 
-    <header>
-
+        <!-- Barra de navegación -->
+    <header id="page-top">
+    
     <nav class="navbar navbar-expand-lg navbar-light">
         
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,106 +28,146 @@
 
         <div>  
             <a class="navbar-brand" href="#">
-            <img src="./assets/img/logosobre.svg" width="300" height="80" class="d-inline-block align-top" alt="" loading="lazy">
+            <img src="./assets/img/logosobre.svg" width="300" height="80" class="d-inline-block align-top" alt="Logo de BiEiBi" loading="lazy">
           </a></div>
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle menu" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle menu" href="about" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 ¿Quiénes somos?
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#Ampa">Ampa</a>
-                <a class="dropdown-item" href="#Anny">Anny</a>
-                <a class="dropdown-item" href="#Bea">Bea</a>
-                <a class="dropdown-item" href="#Bryan">Bryan</a>
-                <a class="dropdown-item" href="#Victor">Victor</a>
+                <a class="dropdown-item" href="#ampa">Ampa</a>
+                <a class="dropdown-item" href="#anny">Anny</a>
+                <a class="dropdown-item" href="#bea">Bea</a>
+                <a class="dropdown-item" href="#brayan">Bryan</a>
+                <a class="dropdown-item" href="#victor">Victor</a>
             </div>
             </li>
             <li class="nav-item dropdown menu">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="projects" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Proyectos
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Manual</a>
-                <a class="dropdown-item" href="#">Wireframe</a>
+                <a class="dropdown-item" href="#manual">Manual</a>
+                <a class="dropdown-item" href="#wireframe">Wireframe</a>
                 <a class="dropdown-item" href="#">Sitio Web</a>
             </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Píldoras</a>
+              <a class="nav-link" href="#pills">Píldoras</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contact">Contacto</a>
             </li>
             
           </ul>
-        </div>
+        </div> 
       </nav>
-      <section>
-        <h1>Bi Ei Vi, con buena vibra</h1> <br><br><br>
+      <section class="welcome">
+          <img class="welcome-img" src="assets/img/logosobre.svg">
+              <div class="welcome-text">
+             <h1 class="frase1" >Bi Ei Vi</h1>
+             <p class="frase2">Buena Vibra</p>
       </section>
     </header>
     <main>
-        <!--¿Quiénes Somos?-->
-        <article class="about">
-            <h2>¿Quiénes Somos?</h2>
-            <p>¡Hola! Somos <b>Bi Ei Vi</b>, un equipo de trabajo de la II Edición del curso de Desarrollo Web Fullstack de Factoría F5 de Fundación Tomillo.
+    <article class="about">
+        <h2>¿Quiénes somos?</h2>
+        <p>¡Hola! Somos <b>Bi Ei Vi</b>, un equipo de trabajo de la II Edición del curso de Desarrollo Web Fullstack de Factoría F5 de Fundación Tomillo.
                 Queremos mostraros nuestro trabajo realizado durante las últimas semanas y que podáis contar nuestros recursos
                 en vuestros proyectos, <b>¡somos una gran comunidad!</b>
                 ¿Por qué somos diferentes? Porque somos <b>cercanos</b>, hablamos <b>claro</b>, aprovechamos nuestros conocimientos
-                para sacar el <b>máximo provecho</b> a nuestro trabajo y sobre todo tenemos ¡BUENA VIBRA!
-            </p>
-        <section class="equipo">
+                para sacar el <b>máximo provecho</b> a nuestro trabajo y sobre todo tenemos
+                <h3>¡BUENA VIBRA!</h3>
+        </p>
+    <section class="equipo">
+        <h3>El equipo</h3>
             <div class="card-deck">
-              <div class="card">
-                  <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/man_male_avatar_portrait-256.png" class="card-img-top" alt="...">
+              <div id="victor" class="card">
+                  <img src="assets/img/equipo/victor.jpg" class="card-img-top" alt="Victor">
                   <div class="card-body">
-                    <h5 class="card-title">Víctor</h5>
+                    <h3 class="card-title">Víctor</h3>
                     <p class="card-text">Soy Victor, un aventurero. Me considero amable, inteligente e introvertido. Aunque me considero un pensador y un manitas, me gusta colaborar en equipo. Mi pasatiempo preferido es curiosear por la red, salir a correr al campo y jugar. Actualmente estoy participando en algo nuevo para mi, un Boot Camp en Desarrollo Web.</p>
                   </div>
-                  <img src="assets/img/montanas/montana-azul.svg">
+                  
+                  <button type="button" class="btn btn-outline-secondary"><a href="#" title="Enlace externo: CV Víctor"><img src="assets/img/svg/montanas/montana-mar.svg"></a></button>
               </div>
-              <div class="card">
-                  <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/afro_woman_female_person-256.png" class="card-img-top" alt="...">
+              <div id="anny" class="card">
+                  <img src="assets/img/equipo/anny.jpg" class="card-img-top" alt="Anny">
                 <div class="card-body">
-                  <h5 class="card-title">Anny Karolina</h5>
-                  <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt ipsam eligendi, commodi libero maiores eveniet blanditiis atque rerum, tenetur ipsum hic! Ab voluptatum temporibus obcaecati incidunt deserunt eos quaerat commodi.</p>
+                  <h3 class="card-title">Anny Karolina</h3>
+                  <p class="card-text">Luchadora y trabajadora incansable, amiga de sus compañeros, responsable y tenaz en el esfuerzo de superación, que me ha llevado hacer esta preparación y así obtener una mejor formación profesional.</p>
                 </div>
-                <img src="assets/img/montanas/montana-mar.svg">
+                <button type="button" class="btn btn-outline-secondary"><a href="#" title="Enlace externo: CV Anny Karolina"><img src="assets/img/svg/montanas/montana-azul.svg"></a></button>
               </div>
-              <div class="card">
-                <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/boy_person_avatar_kid-256.png" class="card-img-top" alt="...">
+              <div id="brayan" class="card">
+                <img src="assets/img/equipo/brayan.jpg" class="card-img-top" alt="Brayan">
                 <div class="card-body">
-                  <h5 class="card-title">Brayan</h5>
-                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum blanditiis quae, atque, eum, obcaecati quas quasi voluptates quaerat velit esse repellendus unde id ipsum! Suscipit assumenda eos quo aliquam distinctio.</p>
+                  <h3 class="card-title">Brayan</h3>
+                  <p class="card-text">Hola, me llamo Brayan, tengo 22 años y vivo en madrid, soy una persona tranquila y un poco seria al que le gusta estar más en casa viendo series con la manta y las palomitas que salir al peligroso mundo exterior, aunque me gusta salir de vez en cuando para hacer ejercicio. Me encanta el frio y la lluvia y odio el verano y el calor, soy amante de los animales y de las almendras.</p>
                 </div>
-                  <img src="assets/img/montanas/montana-naranja.svg">
+                <button type="button" class="btn btn-outline-secondary"><a href="https://fullstack20-21.alwaysdata.net/cv/brayan" title="Enlace externo: CV Brayan" target="_blank"><img src="assets/img/svg/montanas/montana-naranja.svg"></a></button>
               </div>
-              <div class="card">
-                  <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/boy_male_avatar_portrait-256.png" class="card-img-top" alt="...">
+              <div id="ampa" class="card">
+                  <img src="assets/img/equipo/ampa.jpg" class="card-img-top" alt="Ampa">
                   <div class="card-body">
-                    <h5 class="card-title">Ampa</h5>
+                    <h3 class="card-title">Ampa</h3>
                     <p class="card-text">Soy una persona entusiasta, creativa y curiosa. Me gusta trabajar en equipo y mantenerme siempre activa. Estoy formándome como desarrolladora web porque creo que es un sector en el que siempre estaré en constante aprendizaje y eso me motiva.</p>
                   </div>
-                  <img src="assets/img/montanas/montana-azul.svg">
+                  <button type="button" class="btn btn-outline-secondary"><a href="https://fullstack20-21.alwaysdata.net/cv/amparo/" title="Enlace externo: CV Ampa"><img src="assets/img/svg/montanas/montana-azul.svg"></a></button>
               </div>
-                <div class="card">
-                  <img src="https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/girl_avatar_child_kid-256.png" class="card-img-top" alt="...">
+                <div id="bea" class="card">
+                  <img src="assets/img/equipo/beatriz.jpg" class="card-img-top" alt="Beatriz">
                   <div class="card-body">
-                    <h5 class="card-title">Bea</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci tempora natus perspiciatis assumenda, eligendi blanditiis aliquid perferendis voluptate veniam iusto enim architecto excepturi quo repudiandae nisi tempore distinctio, veritatis porro?</p>
-                    <img src="svg/montañaazul.svg" class="card-img-bottom"alt="">
+                    <h3 class="card-title">Beatriz</h3>
+                    <p class="card-text">Periodista de formación, mi personalidad curiosa siempre me ha llevado a aprender más sobre las cosas.
+                        En mi primer trabajo como gestora de contenidos descubrí mi vocación por los entornos digitales y nació mi interés por convertirme en Coder. Me gusta viajar, ir al teatro y estar en buena compañía.</p>
                   </div>
-                  <img src="assets/img/montanas/montana-mar.svg">
+                  <button type="button" class="btn btn-outline-secondary"><a href="#" title="Enlace externo: CV Bea"><img src="assets/img/svg/montanas/montana-mar.svg"></a></button>
                 </div>
               </div>
           </section>
-        </article>
-    </main>
+    </article>
+      <section class="proyectos">
+        <h2 id="projects">Proyectos</h2>
+        <h3 id="manual">Imagen Corporativa</h3>
+           <div class="container">
 
-        <!--Contacto-->
+               <iframe src="https://docs.google.com/viewer?srcid=1BJ2e9sKNMvTSU1EIO4XO_q7-h1rI7vORl2HCq3jy_ak&pid=explorer&efh=false&a=v&chrome=false&embedded=true"></iframe>
+               </iframe>
+
+           </div>
+
+        <h3 id="wireframe">Wireframes</h3>
+            <div class="container">
+
+               <iframe  src="assets/pdf/wireframe-desktop.pdf">
+               </iframe>
+            </div>
+            <div class="container">
+                <iframe class="iframe"          
+                src="assets/pdf/wireframe-mobile.pdf">
+            </iframe>
+            </div>
+    </section>
+    <bar>
+        <hr>
+
+    <section class="pildoras">
+       <h2 id="pills">Píldoras</h2>
+           <h3>SMACSS</h3>
+              <div class="container">
+
+                  <iframe src="https://docs.google.com/viewer?srcid=1Omi91PbDxmpnZ615PE9064NO1OAhOW_18zPOQgC-F70&pid=explorer&efh=false&a=v&chrome=false&embedded=true">
+                  </iframe>
+              </div>
+
+    </section>
+    </main>
+        <!--contacto-->
+
         <section class="page-section" id="contact">
             <div class="container">
                 <div class="text-center">
@@ -165,14 +207,19 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left"><p>Copyright © BiEiVi 2020</p></div>
-                   
+                    <div class="col-lg-4 text-lg-center">Copyright © BiEiVi 2020</div>
                     <div>
-                        <a href="http://www.instagram.com/bieivi_buenavibra" target="_blank" title="logo">Instagram</a></div>
+                        <a href="http://www.instagram.com/bieivi_buenavibra" target="_blank" title="Enlace externo: Instagram de BiEiVi">
+                            <svg class="row fa fa-align-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                                <path class="st0" d="M15 2.8c4 0 4.4 0 6 0.1 1.4 0.1 2.2 0.3 2.8 0.5 0.7 0.3 1.2 0.6 1.7 1.1 0.5 0.5 0.8 1 1.1 1.7C26.8 6.8 27 7.6 27.1 9c0.1 1.6 0.1 2 0.1 6s0 4.4-0.1 6c-0.1 1.4-0.3 2.2-0.5 2.8 -0.3 0.7-0.6 1.2-1.1 1.7 -0.5 0.5-1 0.8-1.7 1.1 -0.5 0.2-1.3 0.4-2.8 0.5 -1.6 0.1-2 0.1-6 0.1s-4.4 0-6-0.1c-1.4-0.1-2.2-0.3-2.8-0.5 -0.7-0.3-1.2-0.6-1.7-1.1 -0.5-0.5-0.8-1-1.1-1.7C3.2 23.2 3 22.4 2.9 21c-0.1-1.6-0.1-2-0.1-6s0-4.4 0.1-6C3 7.6 3.2 6.8 3.4 6.2 3.7 5.5 4 5.1 4.5 4.5c0.5-0.5 1-0.8 1.7-1.1C6.8 3.2 7.6 3 9 2.9 10.6 2.8 11 2.8 15 2.8M15 0.2c-4 0-4.5 0-6.1 0.1C7.3 0.3 6.2 0.6 5.3 0.9c-1 0.4-1.8 0.9-2.6 1.7C1.8 3.5 1.3 4.3 0.9 5.3c-0.4 0.9-0.6 2-0.7 3.6C0.2 10.5 0.1 11 0.1 15c0 4 0 4.5 0.1 6.1 0.1 1.6 0.3 2.7 0.7 3.6 0.4 1 0.9 1.8 1.7 2.6 0.8 0.8 1.7 1.3 2.6 1.7 0.9 0.4 2 0.6 3.6 0.7 1.6 0.1 2.1 0.1 6.1 0.1s4.5 0 6.1-0.1c1.6-0.1 2.7-0.3 3.6-0.7 1-0.4 1.8-0.9 2.6-1.7 0.8-0.8 1.3-1.7 1.7-2.6 0.4-0.9 0.6-2 0.7-3.6 0.1-1.6 0.1-2.1 0.1-6.1s0-4.5-0.1-6.1c-0.1-1.6-0.3-2.7-0.7-3.6 -0.4-1-0.9-1.8-1.7-2.6 -0.8-0.8-1.7-1.3-2.6-1.7 -0.9-0.4-2-0.6-3.6-0.7C19.5 0.2 19 0.2 15 0.2L15 0.2z"/>
+                                <path class="st0" d="M15 7.4c-4.2 0-7.6 3.4-7.6 7.6s3.4 7.6 7.6 7.6 7.6-3.4 7.6-7.6S19.2 7.4 15 7.4zM15 20c-2.7 0-5-2.2-5-5s2.2-5 5-5c2.7 0 5 2.2 5 5S17.7 20 15 20z"/>
+                                <circle class="st0" cx="22.9" cy="7.1" r="1.8"/>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
             </div>
         </footer>
-
         <!-- Incluye Bootstrap ~# jQuery-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>

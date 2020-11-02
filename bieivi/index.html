@@ -70,20 +70,21 @@
     </header>
       
     
-    <main>
+    <main class="container">
+
       <div class="welcome">
 
-        <div class="d-flex justify-content-center">
+        
           <img class="welcome-img" src="assets/img/logosobre.svg">
-        </div>
+        
             <div class="welcome-text">
            <h1 class="frase1" >Bi Ei Vi</h1>
            <p class="frase2">Buena Vibra</p>
            </div>
         </div>
     <article class="about">
-        <h2>¿Quiénes somos?</h2>
-        <p>¡Hola! Somos <b>Bi Ei Vi</b>, un equipo de trabajo de la II Edición del curso de Desarrollo Web Fullstack de Factoría F5 de Fundación Tomillo.
+        <h2 class="text-center">¿Quiénes somos?</h2>
+        <p class="text-center">¡Hola! Somos <b>Bi Ei Vi</b>, un equipo de trabajo de la II Edición del curso de Desarrollo Web Fullstack de Factoría F5 de Fundación Tomillo.
                 Queremos mostraros nuestro trabajo realizado durante las últimas semanas y que podáis contar nuestros recursos
                 en vuestros proyectos, <b>¡somos una gran comunidad!</b>
                 ¿Por qué somos diferentes? Porque somos <b>cercanos</b>, hablamos <b>claro</b>, aprovechamos nuestros conocimientos
@@ -147,7 +148,7 @@
       <section class="proyectos">
         <h2 id="projects">Proyectos</h2>
         <h3 id="manual">Imagen Corporativa</h3>
-           <div class="container">
+           <div class="container_wireframe">
 
                <iframe class="responsive-iframe" src="https://docs.google.com/viewer?srcid=1BJ2e9sKNMvTSU1EIO4XO_q7-h1rI7vORl2HCq3jy_ak&pid=explorer&efh=false&a=v&chrome=false&embedded=true"></iframe>
                </iframe>
@@ -155,12 +156,12 @@
 
         <h3 id="wireframe">Wireframes</h3>
         <h5>Desktop Wireframe</h5>
-            <div class="container">
+            <div class="container_wireframe">
                 <iframe class="responsive-iframe" src="assets/pdf/wireframe-desktop.pdf">
                </iframe>
             </div><br><br>
             <h5>Mobile Wireframe</h5>
-            <div class="container">
+            <div class="container_wireframe">
     
                 <iframe class="responsive-iframe"          
                 src="assets/pdf/wireframe-mobile.pdf">
@@ -173,7 +174,7 @@
     <section class="pildoras">
        <h2 id="pills">Píldoras</h2>
            <h3>SMACSS</h3>
-              <div class="container">
+              <div class="container_wireframe">
 
                   <iframe class="responsive-iframe" src="https://docs.google.com/viewer?srcid=1Omi91PbDxmpnZ615PE9064NO1OAhOW_18zPOQgC-F70&pid=explorer&efh=false&a=v&chrome=false&embedded=true">
                   </iframe>
@@ -188,8 +189,8 @@
     </div>
       <div class="row">
         <div class="col-md-12">
-          <div class="media g-mb-30 media-comment">
-            <img class="d-flex g-width-50 g-height-50 rounded-circle g-mt-3 g-mr-15" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Avatar de Pedro">
+          <div class="media  g-mb-30 media-comment flex-column flex-sm-row">
+            <img class="d-flex g-width-50 g-height-50 rounded-circle g-mt-3 g-mr-15 mb-3 mb-sm-0" src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Avatar de Pedro">
               <div class="media-body u-shadow-v18 g-bg-secondary g-pa-30">
                 <div class="g-mb-15">
                   <h5 class="h5 g-color-gray-dark-v1 mb-0">Pedro</h5>
@@ -221,8 +222,8 @@
               </div>
             </div>
             <div class="col-md-12">
-              <div class="media g-mb-30 media-comment">
-                <img class="d-flex g-width-50 g-height-50 rounded-circle g-mt-3 g-mr-15" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Avatar de Rocío">
+              <div class="media g-mb-30 media-comment flex-column flex-sm-row">
+                <img class="d-flex g-width-50 g-height-50 rounded-circle g-mt-3 g-mr-15 mb-3 mb-sm-0" src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="Avatar de Rocío">
                 <div class="media-body u-shadow-v18 g-bg-secondary g-pa-30">
                   <div class="g-mb-15">
                     <h5 class="h5 g-color-gray-dark-v1 mb-0">Rocío</h5>
@@ -270,7 +271,7 @@
             <div class="text-center">
               <h2 class="section-heading">Contacta con Nosotros</h2>
             </div>
-          <form id="contactForm" name="sentMessage" novalidate="novalidate">
+          <form class="mx-5" id="contactForm" name="sentMessage" novalidate="novalidate">
             <div class="row align-items-stretch mb-5">
               <div class="col-md-6">
                 <div class="form-group">
@@ -301,7 +302,7 @@
           </div>
         </section>
         <!-- instagram -->
-        <div class="col-lg-12 text-lg-center">
+        <div class="col-lg-12 d-flex justify-content-center">
           <a class="social-icon" href="https://www.instagram.com/bieivi_buenavibra/"><i class="fab fa-instagram-square"></i></a>
         </div>
         <!--footer-->

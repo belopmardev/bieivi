@@ -43,10 +43,11 @@ nav {
 .dropdown-item{
   color: white;
 }
-
-a:visited{
- color: #FF7400;
+.logo-nav{
+  margin-left: 5px;
 }
+
+
 #navbarDropdownMenuLink{
   background-color: #073763;
   width: 200px;
@@ -414,3 +415,13 @@ div .row{
     margin-top:20px
 }
 
+.flecha-arriba{
+  position: fixed;
+	bottom:50px;
+  right:20px;
+  height: 50px;
+  width: 50px;
+}
+#sendMessageButton{
+  background-color: #073763;
+}
